@@ -17,6 +17,11 @@ jobs:
   build:
     name: Build ${{ matrix.platform }}
     runs-on: ${{ matrix.runner }}
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+      artifact-metadata: write
     strategy:
       fail-fast: false
       matrix:
@@ -62,11 +67,30 @@ jobs:
         if: runner.os != 'Windows'
         run: tar -czf "${{ matrix.archive }}" -C package .
 
+      - name: Create Windows checksum
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $hash = (Get-FileHash -LiteralPath "${{ matrix.archive }}" -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  ${{ matrix.archive }}" | Set-Content -LiteralPath "SHA256SUMS-${{ matrix.platform }}.txt" -Encoding ascii
+
+      - name: Create Unix checksum
+        if: runner.os != 'Windows'
+        run: shasum -a 256 "${{ matrix.archive }}" > "SHA256SUMS-${{ matrix.platform }}.txt"
+
+      - name: Attest release package
+        if: github.event_name != 'pull_request'
+        uses: actions/attest@v4
+        with:
+          subject-path: ${{ matrix.archive }}
+
       - name: Save package artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-${{ matrix.platform }}
-          path: ${{ matrix.archive }}
+          path: |
+            ${{ matrix.archive }}
+            SHA256SUMS-${{ matrix.platform }}.txt
           if-no-files-found: error
           retention-days: 30
 
