@@ -1,0 +1,1176 @@
+{
+  "frame_index_base": 0,
+  "icon_atlas": {
+    "cell": {
+      "height": 24,
+      "width": 24
+    },
+    "columns": 5,
+    "rows": 1,
+    "texture": "special/special_icons_atlas.png"
+  },
+  "items": [
+    {
+      "anchor": {
+        "x": 16,
+        "y": 26
+      },
+      "animations": [
+        {
+          "duration_ms": 800,
+          "frames": [
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 400
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 11
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 620
+            }
+          ],
+          "id": "float",
+          "loop": true,
+          "on_complete": "loop_until_state_exit",
+          "texture": "special/animations/driftwood_parcel_float.png"
+        },
+        {
+          "duration_ms": 1120,
+          "frames": [
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 12
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 120
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 8
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 320
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 4,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 128,
+                "y": 0
+              },
+              "start_ms": 440
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 5,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 160,
+                "y": 0
+              },
+              "start_ms": 560
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 6,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 192,
+                "y": 0
+              },
+              "start_ms": 720
+            },
+            {
+              "duration_ms": 240,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 7,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 224,
+                "y": 0
+              },
+              "start_ms": 880
+            }
+          ],
+          "id": "caught",
+          "loop": false,
+          "on_complete": "hold_last",
+          "texture": "special/animations/driftwood_parcel_caught.png"
+        }
+      ],
+      "category": "special",
+      "frame_size": {
+        "height": 32,
+        "width": 32
+      },
+      "icon": "special/icons/driftwood_parcel.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "driftwood_parcel",
+      "name": "Driftwood Parcel",
+      "relative_rarity": {
+        "id": "common",
+        "label": "Thường",
+        "rank": 1
+      },
+      "source_file": "source/special/driftwood_parcel.aseprite"
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 26
+      },
+      "animations": [
+        {
+          "duration_ms": 800,
+          "frames": [
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 400
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 11
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 620
+            }
+          ],
+          "id": "float",
+          "loop": true,
+          "on_complete": "loop_until_state_exit",
+          "texture": "special/animations/fishermans_gift_float.png"
+        },
+        {
+          "duration_ms": 1120,
+          "frames": [
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 12
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 120
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 8
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 320
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 4,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 128,
+                "y": 0
+              },
+              "start_ms": 440
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 5,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 160,
+                "y": 0
+              },
+              "start_ms": 560
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 6,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 192,
+                "y": 0
+              },
+              "start_ms": 720
+            },
+            {
+              "duration_ms": 240,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 7,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 224,
+                "y": 0
+              },
+              "start_ms": 880
+            }
+          ],
+          "id": "caught",
+          "loop": false,
+          "on_complete": "hold_last",
+          "texture": "special/animations/fishermans_gift_caught.png"
+        }
+      ],
+      "category": "special",
+      "frame_size": {
+        "height": 32,
+        "width": 32
+      },
+      "icon": "special/icons/fishermans_gift.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "fishermans_gift",
+      "name": "Fisherman's Gift",
+      "relative_rarity": {
+        "id": "unusual",
+        "label": "Khá hiếm",
+        "rank": 2
+      },
+      "source_file": "source/special/fishermans_gift.aseprite"
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 26
+      },
+      "animations": [
+        {
+          "duration_ms": 800,
+          "frames": [
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 6
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 400
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 8
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 620
+            }
+          ],
+          "id": "float",
+          "loop": true,
+          "on_complete": "loop_until_state_exit",
+          "texture": "special/animations/lucky_tackle_box_float.png"
+        },
+        {
+          "duration_ms": 1120,
+          "frames": [
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 120
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 6
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 5
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 320
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 6
+              },
+              "index": 4,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 128,
+                "y": 0
+              },
+              "start_ms": 440
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 5,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 160,
+                "y": 0
+              },
+              "start_ms": 560
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 6,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 192,
+                "y": 0
+              },
+              "start_ms": 720
+            },
+            {
+              "duration_ms": 240,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 7,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 224,
+                "y": 0
+              },
+              "start_ms": 880
+            }
+          ],
+          "id": "caught",
+          "loop": false,
+          "on_complete": "hold_last",
+          "texture": "special/animations/lucky_tackle_box_caught.png"
+        }
+      ],
+      "category": "special",
+      "frame_size": {
+        "height": 32,
+        "width": 32
+      },
+      "icon": "special/icons/lucky_tackle_box.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "lucky_tackle_box",
+      "name": "Lucky Tackle Box",
+      "relative_rarity": {
+        "id": "rare",
+        "label": "Hiếm",
+        "rank": 3
+      },
+      "source_file": "source/special/lucky_tackle_box.aseprite"
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 26
+      },
+      "animations": [
+        {
+          "duration_ms": 800,
+          "frames": [
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 400
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 11
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 620
+            }
+          ],
+          "id": "float",
+          "loop": true,
+          "on_complete": "loop_until_state_exit",
+          "texture": "special/animations/golden_parcel_float.png"
+        },
+        {
+          "duration_ms": 1120,
+          "frames": [
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 12
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 120
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 8
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 320
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 4,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 128,
+                "y": 0
+              },
+              "start_ms": 440
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 5,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 160,
+                "y": 0
+              },
+              "start_ms": 560
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 6,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 192,
+                "y": 0
+              },
+              "start_ms": 720
+            },
+            {
+              "duration_ms": 240,
+              "hook_anchor": {
+                "x": 16,
+                "y": 10
+              },
+              "index": 7,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 224,
+                "y": 0
+              },
+              "start_ms": 880
+            }
+          ],
+          "id": "caught",
+          "loop": false,
+          "on_complete": "hold_last",
+          "texture": "special/animations/golden_parcel_caught.png"
+        }
+      ],
+      "category": "special",
+      "frame_size": {
+        "height": 32,
+        "width": 32
+      },
+      "icon": "special/icons/golden_parcel.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "golden_parcel",
+      "name": "Golden Parcel",
+      "relative_rarity": {
+        "id": "very_rare",
+        "label": "Rất hiếm",
+        "rank": 4
+      },
+      "source_file": "source/special/golden_parcel.aseprite"
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 26
+      },
+      "animations": [
+        {
+          "duration_ms": 800,
+          "frames": [
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 6
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 220,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 400
+            },
+            {
+              "duration_ms": 180,
+              "hook_anchor": {
+                "x": 16,
+                "y": 8
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 620
+            }
+          ],
+          "id": "float",
+          "loop": true,
+          "on_complete": "loop_until_state_exit",
+          "texture": "special/animations/moonlit_chest_float.png"
+        },
+        {
+          "duration_ms": 1120,
+          "frames": [
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 9
+              },
+              "index": 0,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 0,
+                "y": 0
+              },
+              "start_ms": 0
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 1,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 32,
+                "y": 0
+              },
+              "start_ms": 120
+            },
+            {
+              "duration_ms": 100,
+              "hook_anchor": {
+                "x": 16,
+                "y": 6
+              },
+              "index": 2,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 64,
+                "y": 0
+              },
+              "start_ms": 220
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 5
+              },
+              "index": 3,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 96,
+                "y": 0
+              },
+              "start_ms": 320
+            },
+            {
+              "duration_ms": 120,
+              "hook_anchor": {
+                "x": 16,
+                "y": 6
+              },
+              "index": 4,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 128,
+                "y": 0
+              },
+              "start_ms": 440
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 5,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 160,
+                "y": 0
+              },
+              "start_ms": 560
+            },
+            {
+              "duration_ms": 160,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 6,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 192,
+                "y": 0
+              },
+              "start_ms": 720
+            },
+            {
+              "duration_ms": 240,
+              "hook_anchor": {
+                "x": 16,
+                "y": 7
+              },
+              "index": 7,
+              "source": {
+                "height": 32,
+                "width": 32,
+                "x": 224,
+                "y": 0
+              },
+              "start_ms": 880
+            }
+          ],
+          "id": "caught",
+          "loop": false,
+          "on_complete": "hold_last",
+          "texture": "special/animations/moonlit_chest_caught.png"
+        }
+      ],
+      "category": "special",
+      "frame_size": {
+        "height": 32,
+        "width": 32
+      },
+      "icon": "special/icons/moonlit_chest.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "moonlit_chest",
+      "name": "Moonlit Chest",
+      "relative_rarity": {
+        "id": "extremely_rare",
+        "label": "Cực hiếm",
+        "rank": 5
+      },
+      "source_file": "source/special/moonlit_chest.aseprite"
+    }
+  ],
+  "relative_rarity_only": true,
+  "schema_version": 1
+}

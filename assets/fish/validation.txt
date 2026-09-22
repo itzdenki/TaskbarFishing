@@ -1,0 +1,1 @@
+PASS: 30 species / 6 rarities / 240 distinct swim frames / 30 unique 24x24 icons; hook anchors visible; no clipped silhouettes; source Aseprite headers valid.

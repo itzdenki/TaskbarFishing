@@ -1,0 +1,1 @@
+PASS: 5 unique icons, 60 timed frames, 32x32 cells, visible per-frame hook anchors, transparent margins, correct Aseprite frame counts.

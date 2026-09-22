@@ -1,0 +1,3977 @@
+{
+  "icon_atlas": {
+    "cell": {
+      "height": 24,
+      "width": 24
+    },
+    "columns": 5,
+    "rows": 6,
+    "texture": "fish/fish_icons_atlas.png"
+  },
+  "rarities": [
+    {
+      "color_hex": "#91aab0",
+      "id": "common",
+      "ui_source": {
+        "height": 26,
+        "width": 26,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "color_hex": "#87d8bd",
+      "id": "uncommon",
+      "ui_source": {
+        "height": 26,
+        "width": 26,
+        "x": 26,
+        "y": 0
+      }
+    },
+    {
+      "color_hex": "#85b8f8",
+      "id": "rare",
+      "ui_source": {
+        "height": 26,
+        "width": 26,
+        "x": 52,
+        "y": 0
+      }
+    },
+    {
+      "color_hex": "#be9bdf",
+      "id": "epic",
+      "ui_source": {
+        "height": 26,
+        "width": 26,
+        "x": 78,
+        "y": 0
+      }
+    },
+    {
+      "color_hex": "#efc87b",
+      "id": "legendary",
+      "ui_source": {
+        "height": 26,
+        "width": 26,
+        "x": 104,
+        "y": 0
+      }
+    },
+    {
+      "color_hex": "#e9a0bc",
+      "id": "mythic",
+      "ui_source": {
+        "height": 26,
+        "width": 26,
+        "x": 130,
+        "y": 0
+      }
+    }
+  ],
+  "rarity_slot_texture": "ui/ui_fish_rarity_slot.png",
+  "schema_version": 1,
+  "species": [
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "round",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/bluegill.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "bluegill",
+      "name": "Bluegill",
+      "rarity": "common",
+      "source_file": "source/fish/bluegill.aseprite",
+      "texture": "fish/swim/bluegill.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "carp",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/common_carp.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "common_carp",
+      "name": "Common Carp",
+      "rarity": "common",
+      "source_file": "source/fish/common_carp.aseprite",
+      "texture": "fish/swim/common_carp.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "bass",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 42,
+        "y": 17
+      },
+      "icon": "fish/icons/perch.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "perch",
+      "name": "Perch",
+      "rarity": "common",
+      "source_file": "source/fish/perch.aseprite",
+      "texture": "fish/swim/perch.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "trout",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/roach.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "roach",
+      "name": "Roach",
+      "rarity": "common",
+      "source_file": "source/fish/roach.aseprite",
+      "texture": "fish/swim/roach.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "round",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/crucian_carp.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 0
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "crucian_carp",
+      "name": "Crucian Carp",
+      "rarity": "common",
+      "source_file": "source/fish/crucian_carp.aseprite",
+      "texture": "fish/swim/crucian_carp.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "bass",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 42,
+        "y": 17
+      },
+      "icon": "fish/icons/largemouth_bass.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 24
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "largemouth_bass",
+      "name": "Largemouth Bass",
+      "rarity": "uncommon",
+      "source_file": "source/fish/largemouth_bass.aseprite",
+      "texture": "fish/swim/largemouth_bass.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "catfish",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/catfish.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 24
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "catfish",
+      "name": "Catfish",
+      "rarity": "uncommon",
+      "source_file": "source/fish/catfish.aseprite",
+      "texture": "fish/swim/catfish.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "trout",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/rainbow_trout.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 24
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "rainbow_trout",
+      "name": "Rainbow Trout",
+      "rarity": "uncommon",
+      "source_file": "source/fish/rainbow_trout.aseprite",
+      "texture": "fish/swim/rainbow_trout.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "round",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/tench.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 24
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "tench",
+      "name": "Tench",
+      "rarity": "uncommon",
+      "source_file": "source/fish/tench.aseprite",
+      "texture": "fish/swim/tench.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "round",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/white_crappie.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 24
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "white_crappie",
+      "name": "White Crappie",
+      "rarity": "uncommon",
+      "source_file": "source/fish/white_crappie.aseprite",
+      "texture": "fish/swim/white_crappie.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "longfin",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/golden_carp.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 48
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "golden_carp",
+      "name": "Golden Carp",
+      "rarity": "rare",
+      "source_file": "source/fish/golden_carp.aseprite",
+      "texture": "fish/swim/golden_carp.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "carp",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/koi.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 48
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "koi",
+      "name": "Koi",
+      "rarity": "rare",
+      "source_file": "source/fish/koi.aseprite",
+      "texture": "fish/swim/koi.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "pike",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 43,
+        "y": 16
+      },
+      "icon": "fish/icons/northern_pike.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 48
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "northern_pike",
+      "name": "Northern Pike",
+      "rarity": "rare",
+      "source_file": "source/fish/northern_pike.aseprite",
+      "texture": "fish/swim/northern_pike.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "trout",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/blue_trout.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 48
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "blue_trout",
+      "name": "Blue Trout",
+      "rarity": "rare",
+      "source_file": "source/fish/blue_trout.aseprite",
+      "texture": "fish/swim/blue_trout.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "bass",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 42,
+        "y": 17
+      },
+      "icon": "fish/icons/redfin.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 48
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "redfin",
+      "name": "Redfin",
+      "rarity": "rare",
+      "source_file": "source/fish/redfin.aseprite",
+      "texture": "fish/swim/redfin.png"
+    },
+    {
+      "alpha": "partially_transparent",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "catfish",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/ghost_catfish.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 72
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "ghost_catfish",
+      "name": "Ghost Catfish",
+      "rarity": "epic",
+      "source_file": "source/fish/ghost_catfish.aseprite",
+      "texture": "fish/swim/ghost_catfish.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "longfin",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/royal_koi.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 72
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "royal_koi",
+      "name": "Royal Koi",
+      "rarity": "epic",
+      "source_file": "source/fish/royal_koi.aseprite",
+      "texture": "fish/swim/royal_koi.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "pike",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 43,
+        "y": 16
+      },
+      "icon": "fish/icons/emerald_pike.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 72
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "emerald_pike",
+      "name": "Emerald Pike",
+      "rarity": "epic",
+      "source_file": "source/fish/emerald_pike.aseprite",
+      "texture": "fish/swim/emerald_pike.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "bass",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 42,
+        "y": 17
+      },
+      "icon": "fish/icons/sunfire_bass.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 72
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "sunfire_bass",
+      "name": "Sunfire Bass",
+      "rarity": "epic",
+      "source_file": "source/fish/sunfire_bass.aseprite",
+      "texture": "fish/swim/sunfire_bass.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "trout",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/crystal_trout.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 72
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "crystal_trout",
+      "name": "Crystal Trout",
+      "rarity": "epic",
+      "source_file": "source/fish/crystal_trout.aseprite",
+      "texture": "fish/swim/crystal_trout.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "round",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/moon_carp.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 96
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "moon_carp",
+      "name": "Moon Carp",
+      "rarity": "legendary",
+      "source_file": "source/fish/moon_carp.aseprite",
+      "texture": "fish/swim/moon_carp.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "longfin",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/sunscale_koi.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 96
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "sunscale_koi",
+      "name": "Sunscale Koi",
+      "rarity": "legendary",
+      "source_file": "source/fish/sunscale_koi.aseprite",
+      "texture": "fish/swim/sunscale_koi.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "sturgeon",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 43,
+        "y": 16
+      },
+      "icon": "fish/icons/ancient_sturgeon.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 96
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "ancient_sturgeon",
+      "name": "Ancient Sturgeon",
+      "rarity": "legendary",
+      "source_file": "source/fish/ancient_sturgeon.aseprite",
+      "texture": "fish/swim/ancient_sturgeon.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "pike",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 43,
+        "y": 16
+      },
+      "icon": "fish/icons/storm_pike.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 96
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "storm_pike",
+      "name": "Storm Pike",
+      "rarity": "legendary",
+      "source_file": "source/fish/storm_pike.aseprite",
+      "texture": "fish/swim/storm_pike.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "arowana",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/ruby_arowana.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 96
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "ruby_arowana",
+      "name": "Ruby Arowana",
+      "rarity": "legendary",
+      "source_file": "source/fish/ruby_arowana.aseprite",
+      "texture": "fish/swim/ruby_arowana.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "longfin",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/celestial_koi.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 120
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "celestial_koi",
+      "name": "Celestial Koi",
+      "rarity": "mythic",
+      "source_file": "source/fish/celestial_koi.aseprite",
+      "texture": "fish/swim/celestial_koi.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "trout",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/aurora_trout.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 24,
+        "y": 120
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "aurora_trout",
+      "name": "Aurora Trout",
+      "rarity": "mythic",
+      "source_file": "source/fish/aurora_trout.aseprite",
+      "texture": "fish/swim/aurora_trout.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "catfish",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/void_catfish.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 48,
+        "y": 120
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "void_catfish",
+      "name": "Void Catfish",
+      "rarity": "mythic",
+      "source_file": "source/fish/void_catfish.aseprite",
+      "texture": "fish/swim/void_catfish.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "arowana",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/solar_arowana.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 72,
+        "y": 120
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "solar_arowana",
+      "name": "Solar Arowana",
+      "rarity": "mythic",
+      "source_file": "source/fish/solar_arowana.aseprite",
+      "texture": "fish/swim/solar_arowana.png"
+    },
+    {
+      "alpha": "binary",
+      "anchor": {
+        "x": 24,
+        "y": 16
+      },
+      "animation": {
+        "duration_ms": 960,
+        "frames": [
+          {
+            "duration_ms": 120,
+            "index": 0,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 0,
+              "y": 0
+            },
+            "start_ms": 0
+          },
+          {
+            "duration_ms": 120,
+            "index": 1,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 48,
+              "y": 0
+            },
+            "start_ms": 120
+          },
+          {
+            "duration_ms": 120,
+            "index": 2,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 96,
+              "y": 0
+            },
+            "start_ms": 240
+          },
+          {
+            "duration_ms": 120,
+            "index": 3,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 144,
+              "y": 0
+            },
+            "start_ms": 360
+          },
+          {
+            "duration_ms": 120,
+            "index": 4,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 192,
+              "y": 0
+            },
+            "start_ms": 480
+          },
+          {
+            "duration_ms": 120,
+            "index": 5,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 240,
+              "y": 0
+            },
+            "start_ms": 600
+          },
+          {
+            "duration_ms": 120,
+            "index": 6,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 288,
+              "y": 0
+            },
+            "start_ms": 720
+          },
+          {
+            "duration_ms": 120,
+            "index": 7,
+            "source": {
+              "height": 32,
+              "width": 48,
+              "x": 336,
+              "y": 0
+            },
+            "start_ms": 840
+          }
+        ],
+        "id": "swim",
+        "loop": true
+      },
+      "facing": "right",
+      "family": "round",
+      "frame_size": {
+        "height": 32,
+        "width": 48
+      },
+      "hook_anchor": {
+        "x": 41,
+        "y": 17
+      },
+      "icon": "fish/icons/eclipse_carp.png",
+      "icon_atlas_source": {
+        "height": 24,
+        "width": 24,
+        "x": 96,
+        "y": 120
+      },
+      "icon_source": {
+        "height": 24,
+        "width": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": "eclipse_carp",
+      "name": "Eclipse Carp",
+      "rarity": "mythic",
+      "source_file": "source/fish/eclipse_carp.aseprite",
+      "texture": "fish/swim/eclipse_carp.png"
+    }
+  ]
+}

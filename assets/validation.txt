@@ -1,0 +1,1 @@
+PASS: assets.json parsed; 293 relative PNG paths exist; all source rectangles within textures; player timing sums match.

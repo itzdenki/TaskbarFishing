@@ -1,0 +1,3 @@
+// GLFW uses this resource for the game and background demo window icons.
+// Windows Explorer also reads the embedded icon from the executable.
+GLFW_ICON ICON "@CMAKE_CURRENT_SOURCE_DIR@/sprite/app-icon.ico"

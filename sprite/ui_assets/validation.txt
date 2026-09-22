@@ -1,0 +1,1 @@
+PASS: 12 asset strips (including font), 92 states/glyphs; exact cell bounds; distinct states; binary alpha; valid nine-slice; 4 opaque mockups at 512x428.

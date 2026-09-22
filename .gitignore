@@ -1,0 +1,11 @@
+/build*/
+/out/
+/captures/
+/.kilo/
+/image.md
+*.save
+*.save.tmp
+*.save.bak
+*.log
+/captures/
+/save.txt*
