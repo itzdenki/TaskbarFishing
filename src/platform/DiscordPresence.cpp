@@ -83,13 +83,19 @@ struct DiscordPresence::Impl {
     const DiscordArtwork artwork;
     const std::int64_t started = std::chrono::duration_cast<std::chrono::seconds>(
         std::chrono::system_clock::now().time_since_epoch()).count();
+#ifdef _WIN32
     // Declared last: joins before the state used by the worker is destroyed.
     std::jthread worker;
+#endif
 
-    explicit Impl(std::string id, DiscordArtwork art) : applicationId(std::move(id)), artwork(std::move(art)), worker([this](std::stop_token stop) {
-        try { run(stop); }
-        catch (const std::exception& error) { std::clog << "Discord Presence stopped: " << error.what() << '\n'; }
-    }) {}
+    explicit Impl(std::string id, DiscordArtwork art) : applicationId(std::move(id)), artwork(std::move(art)) {
+#ifdef _WIN32
+        worker = std::jthread([this](std::stop_token stop) {
+            try { run(stop); }
+            catch (const std::exception& error) { std::clog << "Discord Presence stopped: " << error.what() << '\n'; }
+        });
+#endif
+    }
 
 #ifdef _WIN32
     struct Pipe {
@@ -226,8 +232,6 @@ struct DiscordPresence::Impl {
             retryAt = Clock::now() + 5s;
         }
     }
-#else
-    void run(std::stop_token) {} // This desktop game currently targets Windows.
 #endif
 };
 

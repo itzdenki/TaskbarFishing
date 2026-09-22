@@ -4,8 +4,12 @@
 #include <exception>
 #include <iostream>
 #include <string_view>
+#ifdef _WIN32
+extern int __argc;
+extern char** __argv;
+#endif
 
-int main(int argc, char** argv) {
+static int runApp(int argc, char** argv) {
     bool unattended = false;
     for (int i = 1; i < argc; ++i) if (std::string_view(argv[i]) == "--smoke-test") unattended = true;
     diagnostics::initialize(unattended);
@@ -36,3 +40,13 @@ int main(int argc, char** argv) {
         return 1;
     }
 }
+
+int main(int argc, char** argv) {
+    return runApp(argc, argv);
+}
+
+#ifdef _WIN32
+int __stdcall WinMain(void*, void*, char*, int) {
+    return runApp(__argc, __argv);
+}
+#endif
